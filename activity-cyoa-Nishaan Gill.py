@@ -59,14 +59,14 @@ elif choice1 == "right":
             print(f"Your health is now {health}.")
         if health <= 0:
             print("You succumb to your injuries in the cave.")
-            print("ENDING: Darkness takes you. ⚰️")
+            print("ENDING: Darkness takes you.")
         else:
             print("You find your way out, bruised and tired.")
-            print("ENDING: You barely survive your mistake. 😓")
+            print("ENDING: You barely survive your mistake.")
     else:
         print("You avoid the cave and follow the shoreline.")
         print("Eventually, a rescue boat sees you and picks you up.")
-        print("ENDING: You’re saved, but empty-handed. 🚤")
+        print("ENDING: You’re saved, but empty-handed.")
 else:
      print("You stay frozen in fear and never choose a path.")
-     print("ENDING: You are never seen again.")
+     print("ENDING: You are never seen again💀.")
