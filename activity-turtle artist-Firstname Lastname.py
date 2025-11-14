@@ -29,6 +29,15 @@ pen.pensize(2)
 # pen.end_fill()
 # pen.up()
 
+pen.fillcolor("white")
+pen.seth(0)
+
+# Move the turtle below the octagons
+pen.goto(80, -140)
+# Draw a circle with a radius of 100
+pen.begin_fill()
+pen.circle(175)
+pen.end_fill()
 
 pen.penup()
 pen.goto(-50, 100)
@@ -62,6 +71,8 @@ pen.goto(75, 100)
 pen.pendown()
 # Function to draw hexagon
 pen.setheading(270)
+pen.fillcolor("black")
+pen.begin_fill()
 pen.color("black")
 pen.down()
 pen.forward(50)
@@ -86,6 +97,8 @@ pen.goto(75,-20)
 pen.pendown()
 # Function to draw hexagon
 pen.setheading(270)
+pen.fillcolor("black")
+pen.begin_fill()
 pen.color("black")
 pen.down()
 pen.forward(50)
@@ -110,6 +123,8 @@ pen.goto(-50,-20)
 pen.pendown()
 # Function to draw hexagon
 pen.setheading(270)
+pen.fillcolor("black")
+pen.begin_fill()
 pen.color("black")
 pen.down()
 pen.forward(50)
@@ -151,4 +166,17 @@ pen.end_fill()
 # pen.forward(50)
 # pen.end_fill()
 
+# # Set the color to white (for both outline and fill)
+# pen.down()
+# pen.fillcolor("white")
+# pen.seth(0)
+
+# # Move the turtle below the octagons
+# pen.goto(80, -140)
+# # Draw a circle with a radius of 100
+# pen.begin_fill()
+# pen.circle(200)
+# pen.end_fill()
+
+# Keep the window open until manually closed
 wn.exitonclick()
