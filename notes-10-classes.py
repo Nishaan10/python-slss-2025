@@ -60,7 +60,7 @@ if __name__ == "__main__":
     # View its properties
     print("Pokemon Name:", pokemon_one.name)
     # Change some properties
-    pokemon_one.name = "Gary"
+    pokemon_one.name = "Bob"
     print("Pokemon Name:", pokemon_one.name)
     # Create another pokemon object
     pokemon_two = Pokemon()
